@@ -1,0 +1,10 @@
+package in.kgcoding.challenge79;
+
+public class TestEmployee {
+    public static void main(String[] args) {
+        Employee emp = new Employee("Yasmin",20,25000);
+        System.out.println(emp.employeeDetails());
+        emp.setName("Jasmine");
+        System.out.println(emp.employeeDetails());
+    }
+}
